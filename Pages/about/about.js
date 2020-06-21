@@ -1,13 +1,16 @@
 // Pages/about/about.js
+//注册小程序
+const app = getApp()
+const name = app.globalData.name
+console.log(name)
 Page({
-
+  handgetUserInfo(event) {
+    console.log(event)
+  },
   /**
    * 页面的初始数据
    */
-  data: {
-
-  },
-
+ 
   /**
    * 生命周期函数--监听页面加载
    */
