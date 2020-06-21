@@ -1,2 +1,9 @@
 <!--Pages/about/about.wxml-->
 <text>Pages/about/about.wxml</text>
+<text selectable="true">hello World</text>
+<view class="view1" hover-class="view4">
+  <view class="view2"
+   hover-class="view3"
+   hover-stop-propagation="{{true}}" >div2</view>
+</view>
+<!-- 阻止冒泡 -->

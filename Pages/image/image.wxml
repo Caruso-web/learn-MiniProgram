@@ -1,0 +1,10 @@
+
+<image 
+show-menu-by-longpress="{{true}}"
+
+bindload="imageLoad"
+aspectFit	
+src="http://img1.imgtn.bdimg.com/it/u=825624016,3575996227&fm=15&gp=0.jpg"/>
+<button bindtap="imageClick">选中图片</button>
+<input type="text" confirm-type="go"/>
+<input type="text"  bindinput="onkey" bindfocus="onfocus" bindblur="onblur"/>

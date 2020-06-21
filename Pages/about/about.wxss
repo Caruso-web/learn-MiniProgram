@@ -1,1 +1,21 @@
 /* Pages/about/about.wxss */
+.view1 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.view2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.view3 {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.view4 {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+}
